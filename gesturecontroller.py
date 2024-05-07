@@ -1,6 +1,8 @@
 import cv2
 import mediapipe
 import pyautogui
+
+
 capture_hands = mediapipe.solutions.hands.Hands()
 drawing_option = mediapipe.solutions.drawing_utils
 screen_width, screen_height = pyautogui.size()
